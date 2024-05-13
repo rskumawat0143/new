@@ -9,13 +9,13 @@ extraPlugins: 'divarea'
 } );
 
 
-editor.on('change',function(){
+editors.on('change',function(){
   editElements[$(this).attr('id')] = editor.getData();
   // console.log(editElements)
 })
 
-editor.on('blur',function(){
-  saveData(editor)
+editors.on('blur',function(){
+  saveData(editors)
 });
 
 
