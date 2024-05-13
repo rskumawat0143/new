@@ -14,7 +14,7 @@ editors.on('change',function(){
   // console.log(editElements)
 })
 
-editors.on('blur',function(){
+editor.on('blur',function(){
   saveData(editors)
 });
 
