@@ -23,7 +23,7 @@ function ckeditorJS($args)
     $script = <<<EOT
     <script src='https://code.jquery.com/jquery-3.7.1.js'></script>
     <script src='https://cdn.ckeditor.com/4.15.1/full-all/ckeditor.js'></script>
-    <script src='{$Wcms->url('plugins/new/js/ckeditor.js')}'></script>
+    <script src='{$Wcms->url('plugins/new-main/js/ckeditor.js')}'></script>
 EOT;
     $args[0] .= $script;
   }
@@ -31,12 +31,12 @@ EOT;
 }
 
 function ckeditorCSS($args)
-{
+{    
   global $Wcms;
   if ($Wcms->loggedIn) {
     $script = <<<EOT
 
-    <link rel='stylesheet' href='{$Wcms->url('plugins/new/css/ckeditor.css')}' media='screen'>
+    <link rel='stylesheet' href='{$Wcms->url('plugins/new-main/css/ckeditor.css')}' media='screen'>
 EOT;
     $args[0] .= $script;
   }
