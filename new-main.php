@@ -12,7 +12,6 @@ if (defined('VERSION')) {
   define('version', VERSION);
   defined('version') or die('Direct access is not allowed.');
 }
-
 $Wcms->addListener('js', 'ckeditorJS');
 $Wcms->addListener('css', 'ckeditorCSS');
 
