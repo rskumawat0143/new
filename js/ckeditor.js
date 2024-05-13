@@ -3,7 +3,7 @@ var editElements = {};
 var editorDiv = document.createElement("div");
 $(editorDiv).addClass("ckeditor").attr("id",'editors');
   $(editorDiv).appendTo('.editable');
-  let editors = document.querySelector('.ckeditor')
+  let editors = document.querySelector('.editable')
 let editor = CKEDITOR.replace( editors, {
 extraPlugins: 'divarea'
 } );
