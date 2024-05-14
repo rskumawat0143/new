@@ -1,7 +1,8 @@
 var editElements = {};
 
 var editor1 = CKEDITOR.replace('content', {
-  extraPlugins: 'divarea'
+  extraPlugins: 'divarea',
+  height: 'max-content'
 });
 var editor2 = CKEDITOR.replace('subside', {
   extraPlugins: 'divarea'
