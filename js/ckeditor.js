@@ -5,10 +5,11 @@ var editor1 = CKEDITOR.replace('content', {
   height: 'max-content'
 });
 var editor2 = CKEDITOR.replace('subside', {
-  extraPlugins: 'divarea'
+ extraPlugins: 'divarea',
+  height: 'max-content'
 });
 var editor3 = CKEDITOR.replace('footer', {
-  extraPlugins: 'divarea'
+ extraPlugins: 'divarea'
 });
 
 editor1.on('change', handleEditorChange);
