@@ -2,3 +2,7 @@
 .editor {
   margin: 8px auto;
 }
+
+.cke_editable{
+color:#000 !important;
+}
