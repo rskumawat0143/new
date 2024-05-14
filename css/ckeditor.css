@@ -3,9 +3,15 @@
   margin: 8px auto;
 }
 
-.cke_editable{
+.cke_editable p{
 color:#000 !important;
+margin-bottom: 5px;
 }
-.cke_editor_content{
+.cke{
   width: 100%;
+}
+
+textarea.cke_source{
+  color: #000 !important;
+  height: 400px !important;
 }
