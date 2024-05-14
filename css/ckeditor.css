@@ -6,3 +6,6 @@
 .cke_editable{
 color:#000 !important;
 }
+.cke_editor_content{
+  width: 100%;
+}
